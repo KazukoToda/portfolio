@@ -1,0 +1,179 @@
+#container {
+    margin: 40px;
+}
+
+p {
+    color: #666666;
+    size: 60 px;
+    padding-left: 20px 20px;
+    text-align: justify;
+    line-height: 1.75em;
+    margin: 0px 25px;
+}
+
+.main {
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img.top {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 20px;
+}
+
+img.logo {
+    width: 400px;
+    height: 40px;
+    padding: 40px;
+}
+
+
+nav li{
+    align-items: center;
+    font-size: 15pt;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}
+
+nav li a{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: #D08047;
+    border-bottom: 4px solid #D08047;
+    transition: .3s;
+}
+
+.news {
+    margin: 20px;
+}
+
+dl {
+    padding-left: 20px;
+    line-height:2em;
+}
+
+dt {
+    float: left;
+    clear: both;
+}
+
+dd {
+    margin-left: 120px;
+}
+
+.notice {
+    margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: lighter;
+    background: #D08047;
+    width: 100%;
+    border: solid;
+    border-color: #D08047;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 20px 0px;
+}
+
+h2 {
+    color: #666666;
+    font-size: 12pt;
+    border: 1px solid;
+    border-color: #CCCCCC;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #D08047;
+    text-indent: 20px;
+}
+
+h4 {
+    color: #D08047;
+    padding: 0px;
+    margin: 0px;
+    text-indent: 20px;
+}
+
+a {
+    color: #666666;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+}
+
+table th, table td{
+    border: solid 1px #666666;
+}
+
+table th {
+    background-color: #EEEEEE;
+    text-align: left;
+    padding: 14px 12px;
+}
+
+table tr td:nth-of-type(1){
+    text-align: center;
+    padding: 14px 12px;
+}
+
+table tr td:nth-of-type(2){
+    text-align: left ;
+    padding: 14px 12px;
+}
+
+footer {
+    font-size: 10pt;
+    text-align: center;
+    padding: 50px 0 10px 0;
+}
+
+.list {
+    display: block;
+    height: 200px;
+    padding: 20px 10px;
+    margin: 0px 10px;
+    border-bottom: solid 1px #666666;
+}
+img.gallery {
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: both;
+}
+
+.list p {
+    text-indent: 20px;
+}
+
+.gray {
+    background-color: #E5E5E5;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.brown {
+    color: #D08047;
+
+}
